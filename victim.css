@@ -1,0 +1,57 @@
+body{
+    font-style:fantasy;
+    background-image:url('http://www.accraexpat.com/images/files/events/b3ab11e294fcaffbf4aa25970e09c2f1.jpg');
+    background-size:auto;
+    background-repeat:no-repeat;
+   background: rgba(0, 0, 0, 0.9);
+   opacity:1.0;
+   background-position:top left;
+}
+
+nav ul
+{
+text-align:right;
+} 
+
+nav  ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: gold;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 0);
+     color:brown;
+  border:100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h4{
+   text-align: center;
+   color:navajowhite;
+   background-color: gray;
+   font-size:32px;
+}
+.fourth{
+   color:beige;
+   page-break-after: auto;
+   padding-top: 4px;
+   padding-left:3.5px;
+   padding-right:2px;
+   padding-bottom:2px;
+   font-family: 'Archivo Black', sans-serif;
+   font-size:25px;
+}
+img{
+   display:flex;
+   height:320;
+   width:280;
+   padding:5%;
+   margin-left:400px;
+   padding:2px 2px 2px 2px;
+   opacity:100%;
+}
