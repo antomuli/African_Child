@@ -18,8 +18,14 @@ body {
         right:0;
         opacity: 1;
         text-align: center;
-        overflow-x: none;
+        overflow-x: hidden;
+
+}
+@media screen and (max-width:800px){
         
+        }
+#tag{
+        float: left;
 }
 
 nav {
@@ -101,15 +107,6 @@ h1 {
         box-sizing: border-box;
         border: 1px transparent;
 }
-
-@media screen and (max-width: 700px) {
-        .column {
-                width: 100%;
-                display: inline-block;
-                margin-bottom: 20px;
-        }
-}
-
 .icon-bar {
         position: fixed;
         top:50%;
