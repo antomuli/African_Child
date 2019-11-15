@@ -1,3 +1,9 @@
+*{
+   padding-bottom:2px;
+       font-size:25px;
+}
+
+
 body{
     font-style:fantasy;
     background-image:url('http://www.accraexpat.com/images/files/events/b3ab11e294fcaffbf4aa25970e09c2f1.jpg');
@@ -7,6 +13,22 @@ body{
    opacity:1.0;
    background-position:top left;
    overflow-x: hidden;
+}
+nav {
+   position: sticky;
+   background-color: maroon;
+   padding: 10px 10px 5px 5px;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   z-index: 1;
+   margin-top: -15px;
+   margin-left:-10px;
+   margin-right: -10px;
+   /* height: 90px;
+   width: 100%; */
+   
 }
 
 nav ul
@@ -26,20 +48,25 @@ nav ul li a{
     color: gold;
 }
 nav ul li a:hover{
-    color: rgb(255, 0, 0);
-     color:brown;
-  border:100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   color: rgb(78, 24, 24);
+   background-color: rgb(236, 202, 202);
+   border: 100px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-decoration:none;
+}
+#tag{
+   position: absolute;
+   top: 40%;
+   left: -18%;
 }
 h4{
    text-align: center;
    color:navajowhite;
-   background-color: gray;
    font-size:32px;
 }
 .fourth{
    color:beige;
-   page-break-after: auto;
+   /* page-break-after: auto; */
    padding-top: 4px;
    padding-left:3.5px;
    padding-right:2px;
@@ -52,7 +79,7 @@ img{
    height:320;
    width:280;
    padding:5%;
-   margin-left:400px;
+   margin-left:20%;
    padding:2px 2px 2px 2px;
-   opacity:100%;
+   /* opacity:100%; */
 }

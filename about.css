@@ -1,5 +1,8 @@
 *{
-   box-sizing: border-box;
+   /* box-sizing: border-box;
+    */
+    padding-top: 2px;
+    font-family: 'Alfa Slab One' ,cursive;
 }
 
 body{
@@ -21,7 +24,18 @@ body{
    display:flex;
    flex-direction:column;
    font-size:27px;color:plum;
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
+}
+nav {
+   position: sticky;
+   background-color: maroon;
+   padding: 10px 10px 5px 5px;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   z-index: 1;
+   
 }
 
 nav ul
@@ -41,11 +55,16 @@ nav ul li a{
     color: gold;
 }
 nav ul li a:hover{
-    color: rgb(255, 0, 0);
-     color:brown;
+    color: rgb(78,24,25);
+     background-color: rgb(236,202,202);
   /* border:100px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+#tag{
+   float: left;
+}
+
 h4{
    color:paleturquoise;
    text-align: center;
@@ -62,4 +81,3 @@ h4{
     position:relative;
     left: 500px;
  }
-
