@@ -6,7 +6,7 @@ Anthony Muli
 
 
 ### Project Description
-A *smile* is a *-curve-* that mekes everything straight.#ForTheLoveOfAnAfrican_Child.
+A *smile* is a *-curve-* that makes everything straight.#ForTheLoveOfAnAfrican_Child.
 This is the live link for the project:
 
 #### Project-setup instructions
